@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    background-color:rgb(240, 210, 137);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.container .esquerda{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    
+
+}
+
+.container .direita{
+    width: 50%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .esquerda h5{ 
+    color: #ec4b5c;
+    font-size: 30px;
+}
+
+.container .esquerda label{
+    font-weight: bold;
+    font-size: 17px;
+    color: #545454;
+}
+
+.container .esquerda input{
+    width: 80%;
+    height: 40px;
+    background-color:#f3f3f3;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    outline: 0;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.container .esquerda input:focus{
+    border: 1px solid #ec4b5c;
+}
+
+.container .esquerda #Check{
+    width: 20px;
+    height: 20px;
+    margin-top: 17px;
+}
+
+.container .esquerda .options button{
+    width: 250px;
+    height: 35px;
+    border: 0;
+    border-radius: 8px;
+    background-color: #ec4b5c;
+    color: white;
+    font-weight: bold;
+    transition: all 300ms ease-in-out;
+
+}
+
+.container .esquerda .options button:hover{
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #ec4b5c;
+    color: #ec4b5c;
+
+}
+
+ .container .esquerda .options a{
+    text-decoration: none;
+    color: #ec4b5c;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.container .esquerda .options{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+}
+
+.container .esquerda .Termos {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.container .esquerda .Termos a{
+    text-decoration: underline;
+    color: #ec4b5c;
+    font-size: 17px;
+    
+
+}
+
