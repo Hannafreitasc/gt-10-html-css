@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: #785eef;
+}
+
+.esquerda{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+
+.esquerda p{
+    width: 400px;
+
+}
+
+.direita{
+    width: 50%;
+    background-color: white;
+    border-top-left-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#785eef;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.direita input{
+    width:70%;
+    height: 35px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 15px;
+}
+
+.direita button{
+    width: 60%;
+    height: 35px;
+    background-color: #785eef;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.direita button:hover{
+    background-color: white;
+    color: #785eef;
+    border: 1px solid #785eef;
+}
+
+.direita a{
+    text-decoration: none;
+    color: #785eef;
+}
+
