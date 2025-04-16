@@ -27,3 +27,137 @@ body{
     align-items: center;
     justify-content: center;
 }
+
+.container .direita .card{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #202020;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.container .direita .card .topo .linha{
+    width: 150px;
+    height: 4px;
+    background-color: #e28ecd;
+    border-radius: 5px;
+}
+
+.container .direita .card .topo h1{
+    line-height: 0px;
+}
+
+.container .direita .card .meio .inp .campo{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    background-color: #343434;
+}
+
+.container .direita .card .meio  .inp label{
+    font-size: 18px;
+    font-weight: bold;
+} 
+
+.container .direita .card .meio{
+    padding-top: 10px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.container .direita .card .meio .inp .campo .icone{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .direita .card .inp .campo .campo-input{
+    width: 80%;
+    height: 100%;
+}
+
+.container .direita .card .meio .inp .campo-input input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    color: white;
+    outline: none;
+}
+
+.container .direita .card .meio .inp .campo-input .valor{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .direita .card .meio button{
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e28ecd;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+ .container .direita .card .fim{
+    display: flex;
+    width: 100%;
+    padding-top: 20px;
+    flex-direction: column;
+ }
+
+ .container .direita .card .fim .linha{
+    width: 100%;
+    height: 1px;
+    background-color: #e28ecd;
+ }
+
+.container .direita .card .fim .resultado{
+    width: 100%;
+    display: flex;
+ }
+
+ .container .direita .card .fim .esquerda{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+
+ .container .direita .card .fim .esquerda h2{
+    color: #e28ecd;
+    line-height: 0px;
+ }
+
+
+ .container .direita .card .fim .resultado .direita{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+ }
+
+ .container .direita .card .fim .resultado .direita p{
+    line-height: 8px;
+
+ }
+
+
+
+ 
